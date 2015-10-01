@@ -153,6 +153,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 def isSnapshot = project.version.endsWith('-SNAPSHOT')
 // pulls the credentials from either the environment variable or gradle.properties
 def cred = {
+	println it + '=' + System.env[it]
 	if (System.env[it] != null) {
 		return System.env[it]
 	} else if (project.hasProperty(it)) {
