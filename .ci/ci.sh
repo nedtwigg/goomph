@@ -1,6 +1,9 @@
 #!/bin/bash
 
+echo "SOMEVAR="
 echo $SOMEVAR
+echo "ASD="
+echo $ASD
 
 # Do the Gradle build
 #./gradlew build || exit 1
