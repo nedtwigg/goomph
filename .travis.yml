@@ -2,6 +2,3 @@ language: java
 jdk:
 - oraclejdk8
 script: "./.ci/ci.sh"
-env:
-  global:
-    secure: gP0Hvn/hi1ARWbDsnq/JNfYy2Q386glWPqe0lFsECE/46B8/VbyDCyGWSrg2uHrCVflblJaag7FHnEUBwbdeVsdqcf/8Ys4Z8RHG/LvggF74iuqpcJ2vui11hj5WROw6lVx2hEXq6HP009Z8yrlrojxSeP3/NamponYX/qE0IDU=
